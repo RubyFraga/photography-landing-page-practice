@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="landingPage-practice.css">
+        <link href="https://fonts.googleapis.com/css2family=Roboto&display=swap" rel="stylesheet">
+        <title>Landing Page Practice</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="header-img">
+                <img src="https://cdn2.iconfinder.com/data/icons/photo-and-video/500/Lens_photo_photography_photos_pictures_shutter-512.png">
+            </div> <!-- END of "header-img" -->
+            <div class="navbar-right">
+                <ul>
+                    <li><a href="#main" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#flex-container" class="nav-link">Packages</a></li>
+                </ul><br>
+            </div> <!-- END of navbar-right-->
+        </div> <!-- END of "navbar" -->
+        <div id="wrapper">
+            <div id="header">
+                <p class="title">Our spontaneous approach to capturing life with you</p>
+                <form action="https://www.freecodecamp.com/email-submit" for="email"> <!--*** TO CHANGE!*** -->
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+                    <input type="submit" value="Let's Chat!"><br><br>
+                </form>
+            </div> <!-- END of "header" -->
+            <div id="main">
+                <img src="https://static.thenounproject.com/png/35083-200.png">
+                <h2>15+ Years of Experience!</h2><br>
+                <p class="verbiage">Over the years, we've found what best works for creating your most favorite memories - no fuss, no pressure, no worries!</p><br>
+                <img src="https://cdn0.iconfinder.com/data/icons/shopping-and-commerce-1-11/66/42-512.png">
+                <h2>High Quality Photos</h2><br>
+                <p class="verbiage">With our most up-to-date equipment and experience for a lifetime, we make sure to have up-to-date equipment for high quality photos and videos to capture your most natural self - so you can just be who you are!</p><br>
+                <img src="https://cdn3.iconfinder.com/data/icons/positive-attitude-2/64/affectionate-charming-love-heart-loving-512.png">
+                <h2 id="portfolio">We Make It Personal</h2><br>
+                <p class="verbiage">It's not just any day, it's your day! We want to get to know you and make sure we capture you most precious moments</p><br>
+            </div> <!-- END of "main" -->
+            <!-- YouTube video -->
+            <iframe id="video" width="660" height="415" src="https://www.youtube.com/embed/GnRWL2fIuT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscree></iframe>
+            <!-- START of flex containers -->
+            <div id="flex-container">
+                <div class="package" id="package1">
+                    <div class="packageTitle">Quick Consultation</div>
+                    <p class="packageDescription">Let's start to know eachother! Find out about our pricing, or simply let us know what's on your mind - we have the answers!</p><br>
+                    <button type="button">Contact Us</button>
+                </div> <!-- END of "package1" -->
+                <div class="package" id="package2">
+                    <div class="packageTitle">Matromony</div>
+                    <p class="packageDescription">No matter the place, time, or creativity, we're there. Ask us about our packages and special engagement locations!</p><br>
+                    <button type="button" class="packageButton">Lovebirds Package</button>
+                </div> <!-- END Of "package2" -->
+                <div class="package" id="package3">
+                    <div class="packageTitle">Lifestyle</div>
+                    <p class="packageDescription">Live your passion while we standby and record them for you, hassle free!</p><br>
+                    <button type="button" class="packageButton">Passion Package</button>
+                </div> <!-- END of "package3" -->
+            </div> <!-- END of "flex-container -->
+        </div> <!-- END of "wrapper" -->
+        <footer class="footerWrapper">
+            <ul>
+                <li><a href="_blank">Privacy</a></li>
+                <li><a href="_blank">Terms</a></li>
+                <li><a href="_blank">Contact</a></li>
+            </ul>
+            <div class="footer-right">
+            <p class="copyright">Copyright 2020, Jane Photography</p>
+            </div> <!-- END of "footer-right" -->
+        </footer>
+    </body>
+</html>
